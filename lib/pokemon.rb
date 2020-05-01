@@ -12,6 +12,6 @@ def self.save(name, type, db)
 end
 def self.find
   db.execute("SELECT*FROM pokemon WHERE id = ?;", id).flatten
-  
+
 end
 end
